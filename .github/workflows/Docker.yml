@@ -31,12 +31,13 @@ jobs:
         # Path to the Dockerfile
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/go_ci/${{github.ref_name}}
+        tags: ghcr.io/${{ secrets.DOCKER_USERNAME }}/go_ci/${{github.ref_name}}
           
     
             
     
       
+
 
 
 
