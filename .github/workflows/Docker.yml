@@ -38,12 +38,12 @@ jobs:
         # Path to the Dockerfile
         file: ./Dockerfile
         push: true
-        tags: masilva2018/go_ci:${{github.ref_name}}
-          
+        tags: masilva2018/go_ci:${{ github.ref_name }}
     
             
     
       
+
 
 
 
